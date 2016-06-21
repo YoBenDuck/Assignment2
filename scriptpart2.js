@@ -1,5 +1,4 @@
 //ASSIGNMENT2 PART1 - Math and Math Functions 
-
 //STEP1
 /*
 var number = prompt("Pick a number?");
@@ -49,7 +48,6 @@ console.log(getDaysInMonth(1, 2012));
 */
 
 //STEP8
-
 /*
 var months = new Array(12);
 
@@ -73,7 +71,6 @@ console.log("The current month is " + months[month_value]);
 */
 
 //STEP9
-
 /*
 var d = new Date();
 var n = d.getDay();
@@ -102,7 +99,6 @@ console.log(n);
 */
 
 //STEP11
-
 /*
 var d = new Date();
 var n = d.getDay();
@@ -172,7 +168,6 @@ for (var i = 0; i < 5; i+=1){
 */
 
 //STEP14
-
 /*
 for (var i = 1; i < 16; i+=1) {
     if (i%2 == 0)
@@ -202,13 +197,14 @@ for (var i = 1; i < 100; i+=1) {
 /*
 var start = confirm('Greetings! Are you ready to play The Hitchkiker\'s Guide to the Galaxy');
 
-if (start == true) {
+    if (start == true) {
 	alert('Awesome, our hero is waiting!');
-} else {
+    } else {
 	alert('Too bad, we\’re going to play anyway because our hero desperately needs your help!');
 }
 
 alert('You are in a dark, dingy, and humid cave searching for the lost treasure of Captain Chingadera. You are disoriented, lost, hungry and extremely thirsty. You see a speck of light in the distance ahead of you, something shimmering to your right, and the sound of running water to your left. Your back is against the wall…');
+
 var direction = prompt('Which direction would you like to head (please enter forward, left, or right).');
 
 switch (direction.toLowerCase()) {
@@ -225,18 +221,18 @@ switch (direction.toLowerCase()) {
 		alert('The ghost of Captain Chingadera has condemned you to eternal damnation and you shall now burn in the hot excoriation for lifeless lowlifes for not choosing the correct option….loser.');
 }
 
-var rating = prompt('Please rate this game on a scale of 1 to 10');
-if (rating < 1 || rating > 10 ) {
-	rating = 10;
-}  
-if (rating <= 5) {
-	alert('Whatever, you weren’t very good at this game anyway...Schmuck!');
-} else {
-	alert
-('Thank you, we will continue to make improvements to the game!');
-}
+//rating
+var rating = prompt("Please rate this game on a scale of 1 to 10");
 
-console.log(rating);
+    if (rating < 1 || rating > 10 ) {
+	rating = 10;
+    }  
+    if (rating <= 5) {
+	alert('Whatever, you weren’t very good at this game anyway...Schmuck!');
+    } else {
+    alert('Thank you, we will continue to make improvements to the game!');
+}
+    console.log(rating);
 */
 
 //ASSIGNMENT2 PART5 - The “Coin Flip” Game 
@@ -246,10 +242,10 @@ console.log(rating);
 
 /*
 var coinflip = Math.round(Math.random());
-var choice = window.prompt("Heads or Tails?");
+var choice = prompt("Heads or Tails?");
 choice = choice.toLowerCase();
-window.console.log(coinflip);
-window.console.log(choice);
+console.log(coinflip);
+console.log(choice);
 var result = "";
 
 if (choice === "heads") {
@@ -268,7 +264,7 @@ if (choice === "heads") {
     result = "Enter Heads or Tails you SCHMUCK! [=";
 }
 
-window.alert(result);
+alert(result);
 */
 
 //PART6 - The “Coin Flip” Game Redux 
@@ -296,37 +292,27 @@ while (i < 10);
 */
 
 //PART8 – Looping a Triangle 
-
 /*
 var hashtag = true;
 
 for (var i = 1; i < 8; i+=1) {
    if (hashtag === true)
-   {
+    {
        hashtag = "#";
-   }
-    else {
-    hashtag = hashtag + "#";
+    }
+    else { hashtag = hashtag + "#";
      
-}console.log(hashtag);}
+         } console.log(hashtag);
+}
 */
 
 //PART9 – Odd or Even? 
-
 /*
 for (var i = 1; i < 16; i+=1) {
     if (i%2 == 0)
         {
-            console.log (i+ " is even"); 
+        console.log (i+ " is even"); 
         }
     else { console.log(i+ " is odd");}
 }
 */
-
-
-
-
-
-
-
-
